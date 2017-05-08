@@ -1,0 +1,86 @@
+/*Color Palette
+#44232B; - burgundy
+#508A69; - Middle Green
+#085401; - Dark Green
+#D5DFE5; - Cool white
+#9EBD7F; - Pale Green
+*/
+/*Global*/
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #508A69;
+}
+h3 {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 2rem;
+  font-weight:900;
+}
+/*Header and Footer*/
+header {
+  margin-top: 52px;
+}
+hgroup {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(../images/bread-cropped-wide.jpg);
+  background-size: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  padding:50px;
+}
+hgroup h1 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 10vmin;
+  color: #D5DFE5;
+  display: inline-block;
+  max-height: 30vh;
+}
+
+hgroup h2 {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 5vmin;
+  font-weight: 900;
+  color: #D5DFE5;
+  display: inline-block;
+  max-height: 20vh;
+  padding-top: 5vh;
+  text-align: center;
+}
+#communityPics {
+  max-width: 30vw;
+  float: right;
+}
+@media (max-width:750) {
+  hgroup h1 {
+    font-size: 3rem;
+  }
+  hgroup h2 {
+    font-size:1rem;
+  }
+}
+navbar {
+  background-color: #D5DFE5;
+}
+.nav-item {
+  color: #44232B;
+  text-decoration: none;
+  font-family: 'Nothing You Could Do', cursive;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+/*Main*/
+section {
+  width: 100vw;
+  padding: 50px;
+}
+.color1 {
+  background-color: #44232B;
+  color:#9EBD7F;
+}
+.color2 {
+  background-color: #D5DFE5;
+  color: #085401;
+}
+
+/**/
