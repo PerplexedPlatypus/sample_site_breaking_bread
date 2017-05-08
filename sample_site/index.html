@@ -24,16 +24,16 @@
       <a class="nav-item nav-link" href="#top">Home</a>
       <div class="collapse navbar-collapse" id="mainMenu">
         <div class="nav-item dropdown">
-          <a class="nav-item nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="aboutUsDropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+          <a class="nav-item nav-link dropdown-toggle" href="#about-us" data-toggle="dropdown" id="aboutUsDropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
             <div class="dropdown-menu" aria-labelledby="aboutUsDropdown">
-              <a class="dropdown-item" href="#" id="">Our Communities</a>
+              <a class="dropdown-item" href="#communities" id="">Our Communities</a>
               <a class="dropdown-item" href="#" id="">Our Team</a>
-              <a class="dropdown-item" href="#" id="">History</a>
+              <a class="dropdown-item" href="#our-history" id="">History</a>
             </div>
         </div>
-        <a class="nav-item nav-link" href="#">Upcoming Events</a>
-        <a class="nav-item nav-link" href="#">Volunteer</a>
-        <a class="nav-item nav-link" href="#">Contact Us</a>
+        <a class="nav-item nav-link" href="#upcoming">Upcoming Events</a>
+        <a class="nav-item nav-link" href="#volunteer">Volunteer</a>
+        <a class="nav-item nav-link" href="#contact-us">Contact Us</a>
       </div>
     </div>
   </navbar>
@@ -72,7 +72,7 @@
         <p>Some posit the servo anteater to be less than scalene. If this was somewhat unclear, they were lost without the molten magician that composed their surfboard. Recent controversy aside, theories are bandaged rewards. This could be, or perhaps some styloid kisses are thought of simply as beetles. Framed in a different way, the litten arrow comes from a livelong burma. Bakeries are aground swordfishes.</p>
 
         <p>A teary banana's design comes with it the thought that the cyan change is a selection. What we don't know for sure is whether or not some posit the messier patient to be less than sternmost. Authors often misinterpret the yam as an absolved crow, when in actuality it feels more like a gormless interviewer. An insides flame is a doll of the mind. As far as we can estimate, the midships turnip reveals itself as a litten snowstorm to those who look. As far as we can estimate, the purest cheek comes from a pauseless pump.</p>
-        <h3>Our History</h3>
+        <h3 id="our-history">Our History</h3>
 
         <p>A finger is a rawboned mosque. An ocelot is the hearing of a soprano. Extending this logic, their stick was, in this moment, a pensile room. A notour step-father without augusts is truly a cirrus of favored meetings. A talk is a marimba's afternoon. A pendulum of the repair is assumed to be a surgeless bankbook.</p>
 
@@ -80,7 +80,7 @@
 
         <p>This is not to discredit the idea that the literature would have us believe that a sextan jason is not but a tire. Unsold quartzes show us how grounds can be noodles. Nowhere is it disputed that a crocus can hardly be considered a scabby crab without also being a plywood. Unshut ends show us how separateds can be kilograms. We know that a calcic passive's roll comes with it the thought that the dextrorse quince is a rose. A diglot slash is an agreement of the mind.</p>
       </section>
-      <section class="container upcoming-events color2">
+      <section class="container upcoming-events color2" id="upcoming">
         <h3>Upcoming Events</h3>
         <ul class="list-unstyled">
           <li>June</li>
@@ -89,7 +89,7 @@
           <li>September</li>
         </ul>
       </section>
-      <section class="container volunteer color1">
+      <section class="container volunteer color1" id="volunteer">
         <h3>Volunteer</h3>
         <p>If you're interested in taking a more active role with us, please fill out our volunteer application.</p>
         <button type="button" class="btn btn-success" data-toggle="modal" data-target="#volunteer">Volunteer Application</button>
@@ -126,16 +126,16 @@
                     <legend>Apply to Become a Volunteer</legend>
                     <div class="form-group">
                       <label class="form-control-label text-med-right" for="firstName" >First Name</label>
-                      <input class="form-control" type="text" id="firstName" placeholder="Your First Name"></input>
-                    </div>
+                      <input class="form-control" type="text" id="firstName" placeholder="Your First Name">
+                    </div><!--                       close form-group -->
                     <div class="form-group">
                       <label class="form-control-label text-med-right" for="lastName" >Last Name</label>
-                      <input class="form-control" type="text" id="lastName" placeholder="Last Name"></input>
-                    </div>
+                      <input class="form-control" type="text" id="lastName" placeholder="Last Name">
+                    </div><!--                       close form-group -->
                     <div class="form-group">
                       <label class="form-control-label text-med-right" for="applicantEmail" >Email</label>
-                      <input class="form-control" type="text" id="applicantEmail" placeholder="Email address"></input>
-                    </div>
+                      <input class="form-control" type="text" id="applicantEmail" placeholder="Email address">
+                    </div><!--                       close form-group -->
                     <div class="form-group">
                       <label class="form-control-label" for="referral">How did you hear about us?</label>
                       <select class="form-control" id="referral">
@@ -145,27 +145,30 @@
                         <option value="friend">From a friend</option>
                         <option value="other">Other</option>
                       </select>
-                    </div>
-                  </fieldset>
+                    </div><!--                       close form-group -->
+                  </fieldset><!--                   end fieldset -->
                   <fieldset class="form-group">
                     <legend>Further Information</legend>
+                    
                     <div class="form-group">
                       <label>Have you attended one of our community meals before?</label>
+                      
                       <div class="form-check form-check-inline">
                         <label class="form-check-label d-block">
                           <input type="radio" name="commMeals" value="yes"> Yes
                         </label>
-                      </div>
+                      </div><!--                       close form-check -->
+                      
                       <div class="form-check form-check-inline">
                         <label class="form-check-label d-block">
                           <input class="form-check-input" type="radio" name="commMeals" value="no"> No
                         </label>
-                      </div>
+                      </div><!--                       close form-check -->
                       <div class="form-check form-check-inline">
                         <label class="form-check-label d-block">
                           <input class="form-check-input" type="radio" name="commMeals" value="unknown"> I don't know
                         </label>
-                      </div>
+                      </div><!--                       close form-check -->
                     </div><!--end form-group-->
                     <div class="form-group">
                       <label>What types of tasks and roles would you like to take on with us?</label>
@@ -174,41 +177,42 @@
                           <label class="form-check-label">
                             <input class="form-check-input" type="checkbox" name="" value="admin"> Administrative
                           </label>
-                        </div>
+                        </div><!--                       close form-check -->
                         <div class="form-check col-md-3">
                           <label class="form-check-label">
                             <input class="form-check-input" type="checkbox" value="alerc"> Clerical
                           </label>
-                        </div>
+                        </div><!--                       close form-check -->
                         <div class="form-check col-md-3">
                           <label class="form-check-label">
                             <input class="form-check-input" type="checkbox" value="event"> Event Organizer
                           </label>
-                        </div>
+                        </div><!--                       close form-check -->
                         <div class="form-check col-md-3">
                           <label class="form-check-label">
                             <input class="form-check-input" type="checkbox" value="garden"> Garden Organizaer
                           </label>
-                        </div>
-                      </div>
+                        </div><!--                       close form-check -->
+                      </div><!--                       close form-group -->
                       <div class="form-group row">
                         <div class="form-check col-md-3">
                           <label class="form-check-label">
                             <input class="form-check-input" type="checkbox" value="foodPrep"> Food Preparation
                           </label>
-                        </div>
+                        </div><!--                       close form-check -->
                         <div class="form-check col-md-3">
                           <label>
                             <input type="checkbox" value="maintenance"> Facility Maintenance
                           </label>
-                        </div>
+                        </div><!--                       close form-check -->
                         <div class="form-check col-md-3">
                           <label>
                             <input type="checkbox" value="outreach">Community Outreach
                           </label>
-                        </div>
+                        </div><!--                       close form-check -->
                       </div><!-- End group row -->
                     </div>  <!-- End checkbox form group -->
+                    </fieldset>
                     <fieldset>
                       <div>
                         <label class="form-control-label" for="applicantInfo">Tell us a bit about yourself and what interests you about Breaking Bread</label>
@@ -284,7 +288,6 @@
       <section class="container footer">
         <p class="copyright">Copyright 2017 Miles Peiser</p>
       </section>
-        </div>
     </footer>
     <script src="js/script.js"></script>
 </body>
